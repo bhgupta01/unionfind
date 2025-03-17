@@ -1,6 +1,8 @@
 public class QuickUnion {
     protected final int[] roots;
     public QuickUnion(int N) {
+        if (N <= 0) throw new IllegalArgumentException();
+
         roots = new int[N];
         for(int i = 0; i < N; i++) roots[i] = i;
     } // N array accesses

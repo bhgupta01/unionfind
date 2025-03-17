@@ -36,13 +36,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Percolation.executor": "Run",
+    "Application.PercolationStats.executor": "Run",
     "Application.QuickFind.executor": "Run",
     "Application.QuickUnion.executor": "Run",
     "Application.SocialNetworkConnectivity.executor": "Run",
     "Application.SuccessorWithDelete.executor": "Run",
     "Application.WeightedQuickUnion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,10 +55,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SuccessorWithDelete">
+  <component name="RunManager" selected="Application.PercolationStats">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="unionfind" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="unionfind" />
+      <option name="PROGRAM_PARAMETERS" value="2 10000" />
+      <method v="2" />
     </configuration>
     <configuration name="QuickFind" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="QuickFind" />
